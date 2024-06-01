@@ -15,7 +15,7 @@ export const ProjectData = [
     title: "Todo App",
     skills: "React.js, Tailwind CSS.",
     description:
-      "lorem ipsum dolor sit amet, cotetur adip rej riec ercj ericjekc eijcje",
+      "Built a React to-do app enabling users to manage tasks and track progress with a clean and responsive design.",
   },
   {
     id: 3,
