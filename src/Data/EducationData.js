@@ -13,7 +13,7 @@ export const EducationData = [
   },
   {
     class: "10th",
-    institute: "Adarsh PU Science College, Hubli",
+    institute: "Giants English Medium School, Hubli",
       year: "2015-2016",
     score : "81.44%"
   },
