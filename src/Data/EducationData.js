@@ -6,7 +6,7 @@ export const EducationData = [
         score : "8.25"
   },
   {
-    class: "12th",
+    class: "11th - 12th",
     institute: "Adarsh PU Science College, Hubli",
       year: "2016-2018",
     score : "73.83%"
