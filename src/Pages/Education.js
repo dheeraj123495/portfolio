@@ -7,7 +7,7 @@ const Education = ({ EducationData }) => {
       <div className="w-12/12 md:w-8/12">
         <div className="flex justify-center top-[15vh] mb-[5vh]">
           <p className="text-pink-600 font-poppins font-bold tracking-widest text-3xl md:text-2xl">
-            MY EDUCATION
+            EDUCATION
           </p>
         </div>
         <div>

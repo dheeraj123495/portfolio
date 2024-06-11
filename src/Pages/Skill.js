@@ -10,6 +10,7 @@ const Skill = () => {
     "CSS",
     "JavaScript",
     "React JS",
+    "Node JS",
     "Express JS",
     "MongoDB",
     "SQL",
@@ -23,7 +24,7 @@ const Skill = () => {
       <div className="w-8/12 md:w-5/12 mt-10 ">
         <div className="flex justify-center top-[15vh] mb-[5vh]">
           <p className="text-pink-600 font-poppins font-bold tracking-widest text-3xl md:text-2xl">
-            MY SKILLS
+            SKILLS
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-3">

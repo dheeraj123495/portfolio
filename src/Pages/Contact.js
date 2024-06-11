@@ -28,21 +28,46 @@ const Contact = () => {
   };
   function onSubmitHandler(event) {
     event.preventDefault();
-    emailjs
-      .sendForm("service_qny529j", "template_0bqitie", form.current, {
-        publicKey: "OxzYZwVezyQEJmYfE",
-      })
-      .then(
-        () => {
-          console.log("SUCCESS!");
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
+    let isError = false;
+    if (contactDetails.name === "") {
+      isError = true;
+      toast.error("Please enter your name");
+      return;
+    }
+    if (contactDetails.email === "") {
+      isError = true;
+      toast.error("Please enter your email");
+      return;
+    }
+    if (contactDetails.subject === "") {
+      isError = true;
+      toast.error("Please enter your subject");
+      return;
+    }
+    if (contactDetails.message === "") {
+      isError = true;
+      toast.error("Please enter your message");
+      return;
+    }
+    if (!isError) {
+      emailjs
+        .sendForm("service_qny529j", "template_0bqitie", form.current, {
+          publicKey: "OxzYZwVezyQEJmYfE",
+        })
+        .then(
+          () => {
+            console.log("SUCCESS!");
+          },
+          (error) => {
+            console.log("FAILED...", error.text);
+          }
+        );
+      console.log(contactDetails);
+      clearContactDetails();
+      toast.success(
+        "Thank you for contacting me. I will get back to you soon."
       );
-    console.log(contactDetails);
-    clearContactDetails();
-    toast.success("Thank you for contacting me. I will get back to you soon.");
+    }
   }
   return (
     <div className=" bg-custom-black text-white gap-y-5 flex flex-col items-center justify-center min-h-screen w-full">

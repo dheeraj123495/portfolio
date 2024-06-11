@@ -32,6 +32,10 @@ export const skills = [
     image: "",
   },
   {
+    skill: "Node JS",
+    image: "",
+  },
+  {
     skill: "Express JS",
     image: "",
   },

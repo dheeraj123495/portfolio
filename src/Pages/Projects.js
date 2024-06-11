@@ -6,7 +6,7 @@ const Projects = ({ ProjectData }) => {
       <div className="w-12/12 md:w-10/12 mt-10">
         <div className="flex justify-center top-[15vh] mb-[5vh]">
           <p className="text-pink-600 font-poppins font-bold tracking-widest text-3xl md:text-2xl">
-            My Projects
+            PROJECTS
           </p>
         </div>
         <div className="flex w-10/12 md:w-full mx-auto flex-col md:flex-row flex-wrap justify-center items-center gap-10">

@@ -9,7 +9,7 @@ const Experience = ({ ExperienceData }) => {
       <div className="w-12/12 md:w-8/12 mt-10">
         <div className="flex justify-center top-[15vh] mb-[5vh]">
           <p className="text-pink-600 font-poppins font-bold tracking-widest text-3xl md:text-2xl">
-            MY EXPERIENCE
+            EXPERIENCE
           </p>
         </div>
         <div>
