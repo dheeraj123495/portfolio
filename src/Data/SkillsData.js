@@ -40,6 +40,10 @@ export const skills = [
     image: "",
   },
   {
+    skill: "Node JS",
+    image: "",
+  },
+  {
     skill: "MongoDB",
     image: "",
   },
@@ -48,7 +52,7 @@ export const skills = [
     image: "",
   },
   {
-    skill: "Oracle SQL",
+    skill: "MySQL",
     image: "",
   },
   {
